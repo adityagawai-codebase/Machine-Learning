@@ -1,0 +1,36 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated data and model artifacts
+# Ignore these only if they are generated and reproducible.
+# Remove or adjust these rules if you intend to version the files.
+# data/processed/*
+# models/*.joblib
