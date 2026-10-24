@@ -1,0 +1,42 @@
+
+# Reproducibility Guide
+
+## Requirements
+
+- Python version compatible with the installed dependencies
+- pip
+- Jupyter Notebook or JupyterLab
+
+## Setup
+
+1. Clone the repository.
+2. Create a virtual environment.
+3. Install the dependencies from requirements.txt.
+4. Open the project in Jupyter.
+5. Run the notebooks in numerical order.
+
+## Randomness
+
+The notebooks use fixed random seeds in relevant steps to
+make synthetic data generation and model experiments more
+reproducible.
+
+## Data
+
+The raw synthetic dataset is stored under data/raw/.
+The dataset-generation cell is optional and should only be
+executed when intentionally regenerating the dataset.
+
+## Expected Outputs
+
+- Exploratory data analysis plots
+- Processed training and test data
+- A fitted preprocessing pipeline
+- A trained classifier
+- Model evaluation figures
+- A prediction demonstration
+
+## Important Note
+
+Reproducibility may vary across library versions and environments.
+Use the dependency versions tested with this project.
